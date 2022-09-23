@@ -1,0 +1,9 @@
+package com.fis.airline.Dao;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.fis.airline.Entity.Passenger;
+
+public interface PassengerDao extends JpaRepository<Passenger, Integer>{
+
+}

@@ -1,0 +1,5 @@
+package com.fis.airline.Dao;
+
+public interface AdminDao extends JpaRepository <> {
+
+}

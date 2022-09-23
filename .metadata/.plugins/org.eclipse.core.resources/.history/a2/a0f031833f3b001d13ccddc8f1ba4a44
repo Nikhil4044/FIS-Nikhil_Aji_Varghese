@@ -1,0 +1,14 @@
+package com.fis.airline.Dao;
+
+import java.util.List;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.fis.airline.Entity.Admin;
+import com.fis.airline.Entity.Passenger;
+
+public interface PassengerDao extends JpaRepository<Passenger, Integer>{
+	
+	List <Admin> findByfrom_location(String from);
+	List <Admin> findByto_location(String to);
+}

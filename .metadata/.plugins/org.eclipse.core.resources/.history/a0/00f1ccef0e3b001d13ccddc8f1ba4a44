@@ -1,0 +1,20 @@
+package com.fis.airline.Entity;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="admin")
+public class Admin {
+	private int fl_id;
+	private int al_id;
+	private String al_name;
+	private String from_location;
+	private String to_location;
+	private String depart_time;
+	private String arrival_time;
+	private String duration;
+	private int total_seats;
+	
+
+}

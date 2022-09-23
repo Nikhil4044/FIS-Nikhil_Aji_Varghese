@@ -1,0 +1,35 @@
+package com.fis.airline.Service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.fis.airline.Dao.AdminDao;
+import com.fis.airline.Entity.Admin;
+
+@Service
+public class AdminServiceImpl implements AdminService {
+	
+	@Autowired
+	AdminDao adminDao;
+	
+	@Override
+	public Admin addData(Admin admin) {
+		// TODO Auto-generated method stub
+		return adminDao.save(admin);
+	}
+
+	@Override
+	public Admin updateData(Admin admin) {
+		// TODO Auto-generated method stub
+		return adminDao.save(admin);
+	}
+
+	@Override
+	public String deleteData(int fl_id) {
+		// TODO Auto-generated method stub
+		adminDao.deleteById(fl_id);
+		return "Deleted Successfully";
+	}
+	
+	
+
+}

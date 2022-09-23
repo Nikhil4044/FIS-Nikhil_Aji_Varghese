@@ -1,0 +1,19 @@
+package com.fis.airline.Service;
+
+import com.fis.airline.Entity.Passenger;
+
+public class PassengerServiceImpl implements PassengerService{
+
+	@Override
+	public Passenger addPassengerData(Passenger passenger) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Passenger updatePassengerData(Passenger passenger) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

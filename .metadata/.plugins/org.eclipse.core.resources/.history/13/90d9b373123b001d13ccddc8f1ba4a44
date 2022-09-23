@@ -1,0 +1,9 @@
+package com.fis.airline.Service;
+
+import com.fis.airline.Entity.Admin;
+
+public class AdminService {
+	
+	public Admin addData(Admin admin);
+
+}

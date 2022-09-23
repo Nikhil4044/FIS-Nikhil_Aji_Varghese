@@ -1,0 +1,27 @@
+package com.fis.airline.Service;
+
+import com.fis.airline.Entity.Admin;
+
+public class AdminServiceImpl implements AdminService {
+
+	@Override
+	public Admin addData(Admin admin) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Admin updateData(Admin admin) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String deleteData(int fl_id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+	
+
+}

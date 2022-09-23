@@ -1,0 +1,13 @@
+package com.fis.airline.Service;
+
+
+import com.fis.airline.Entity.Passenger;
+
+public interface PassengerService {
+	
+	public Passenger addPassengerData(Passenger passenger);
+	public Passenger updatePassengerData(Passenger passenger);
+	
+	
+
+}

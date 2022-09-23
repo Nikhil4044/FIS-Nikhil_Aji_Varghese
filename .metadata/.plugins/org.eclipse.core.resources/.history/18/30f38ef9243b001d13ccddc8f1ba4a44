@@ -1,0 +1,12 @@
+package com.fis.airline.Service;
+
+import java.util.List;
+
+import com.fis.airline.Entity.Admin;
+
+public interface PassengerService {
+	
+	public Passenger addPassengerData(Passenger passenger);
+	public Passenger updatePassengerData(Passenger passenger);
+
+}

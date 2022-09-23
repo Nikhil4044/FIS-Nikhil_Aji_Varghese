@@ -1,0 +1,11 @@
+package com.fis.airline.Service;
+
+import com.fis.airline.Entity.Admin;
+
+public interface AdminService {
+	
+	public Admin addData(Admin admin);
+	public Admin updateData(Admin admin);
+	public String deleteData(int fl_id);
+
+}

@@ -1,0 +1,5 @@
+package com.fis.airline.Dao;
+
+public class PassengerDao {
+
+}

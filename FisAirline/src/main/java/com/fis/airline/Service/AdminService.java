@@ -1,0 +1,15 @@
+package com.fis.airline.Service;
+
+import java.util.List;
+
+import com.fis.airline.Entity.Admin;
+
+public interface AdminService {
+	
+	public List<Admin> getAllData();
+	public Admin addData(Admin admin);
+	public Admin updateData(Admin admin);
+	public String deleteData(int fl_id);
+	public String deletePassenger(int profile_id);
+
+}
